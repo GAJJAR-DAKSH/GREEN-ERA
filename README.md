@@ -60,7 +60,18 @@ green-era/
 2. Open the folder.
 3. Double click **index.html** to open the website in your browser.
 
+
 ---
+
+## 📁 Project Files (Google Drive)
+
+You can access the complete Green Era project files from Google Drive:
+
+🔗 **Google Drive Folder:**
+https://drive.google.com/drive/folders/1qRO2JsEXZ6_rk3-r5CS_A7EwAwG_MbWa?usp=sharing
+
+---
+
 
 ## 🎯 Project Goal
 
