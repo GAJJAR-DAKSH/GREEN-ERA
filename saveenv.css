@@ -1,0 +1,19 @@
+.heading{
+    margin-top: 200px;
+}
+.para{
+    margin-top: 10px;
+}
+h1{
+    font-size: 60px;
+    margin-top: 170px;
+    text-align: center;
+    margin-bottom: -130px;
+     color: #315545;
+}
+.saveenv{
+    margin-left: 250px;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+}

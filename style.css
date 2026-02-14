@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar1 a.Logo{
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: -25px;
+    margin-right: 175px;
+    
+}
+
+.navbar1 a {
+    position: relative;
+    font-size: 18px;
+    color:#fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 45px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar1 a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background :#fff ;
+    transition: 0.3s;
+}
+
+.navbar1 a:hover::before{
+    width: 100%;
+}
+
+.navbar1 a.active{
+    size: 50px;
+}
+
+.navbar1 a.login{
+    background-color: transparent;
+    text-decoration: none;
+    border: 2px white solid;
+    padding: 10px 10px ;
+    border-radius: 5rem;
+    font-size: 18px;
+    color:#fff;
+    font-weight: 500;
+    margin-left: 200px;
+
+}
+
+.navbar1 a.login:hover {
+    background:white ;
+    border-radius: 5rem;
+    color: seagreen;
+    transition:  1s;
+}
+
+.select{
+    margin-top: 81px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 400px;
+    width: 20%;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1remx;
+}
+
+.box-content h2{
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.box-content h2.h2w{
+    margin-left: 70px;
+}
+
+.box-content h2.h2b{
+    margin-left: 70px;
+}
+
+.box-content h2.h2c{
+    margin-left: 70px;
+}
+
+.box-content h2.h2s{
+    margin-left: 100px;
+}
+
+.box-content button{
+    background: transparent;
+    border: 2px black solid;
+    background-color: seagreen;
+    color: white;
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+#product1{
+    text-align: center;
+}
+
+.best-seller{
+    color: black ;
+    background-color:white ;
+    text-align: center;   
+     margin-top: 60px;
+     font-size: 25px; 
+}
+.productlineone{
+    display: flex;
+}
+.wood_mandir{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.bamboo_lampe{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.productlineone button{
+    background: transparent;
+    border: 2px black solid;
+    background-color: seagreen;
+    color: white;
+    margin-top: 10px;
+    width: 550px;
+    height: 30px;
+}
+
+.productlinetwo{
+    display: flex;
+}
+.productlinetwo button{
+    background: transparent;
+    border: 2px black solid;
+    background-color: seagreen;
+    color: white;
+    margin-top: 10px;
+    width: 550px;
+    height: 30px;
+}
+.mitti_prof{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.Coconut_devo{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.best-seller{
+    color: #315545;
+    font-size: 40px;
+}
