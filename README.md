@@ -82,6 +82,7 @@ The goal of this project is to design a simple eco-friendly website layout using
 ## 👨‍💻 Author
 
 Daksh Gajjar
+Jay Rathod
 
 ---
 
